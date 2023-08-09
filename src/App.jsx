@@ -1,17 +1,22 @@
+import { puppyList } from './data'
+import { useState } from 'react'
 import './App.css'
 
 function App() {
-
+ const [puppies, setPuppies] = useState(puppyList)
+// console.log(puppies)
+console.log("puppyList: ", puppyList)
 
   return (
-    <>
-      <div>
-        
+    
+      <div className="App">
+        {
+          puppies.map((puppy)=>{
+            return <p key={puppy.id}>{puppy.name}</p>
+          })
+        }
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
   )
 }
 
