@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+
+.title{
+  padding: 0.4rem;
+  background-color:#F652A0;
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  color:#36EEE0;
+
+}
+
+.App {
+  display:grid;
+  /* padding: 1rem; */
+  background-color: #BCECE0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  color:#F652A0
+
+}
+
+.puppyInfo {
+  padding: 0.2rem;
+  background-color:#4C5270;
+  font-size: 1.6rem;
+  color: #BCECE0;
+}
+
+.puppyName{
+  color:#F652A0;
+}
+
+.list{
+  list-style: none;
+  font-weight: normal;
+  color:#36EEE0;
+}
